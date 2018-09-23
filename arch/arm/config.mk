@@ -21,7 +21,7 @@
 # MA 02111-1307 USA
 #
 
-CROSS_COMPILE ?= arm-linux-
+CROSS_COMPILE ?= /home/user/tiny4412/opt/FriendlyARM/toolschain/4.5.1/bin/arm-linux-
 
 ifeq ($(BOARD),omap2420h4)
 STANDALONE_LOAD_ADDR = 0x80300000
